@@ -6,7 +6,7 @@
   # rbm-coefficients-52B.csv
   # dosage-current.csv
   # production-cost.csv
-input.files52B = "/shared/kgcoe-research/gates/Budget-Uncertainty/R-Files/Summer-2018/Risk/Data-Sets/Original/"
+input.files52B = "/shared/ ... /Risk/Data-Sets/Original/"
 
 # identify the path that contains the following files:
   # ABP-Data.csv
@@ -16,7 +16,7 @@ input.files52B = "/shared/kgcoe-research/gates/Budget-Uncertainty/R-Files/Summer
   # Production-Capacity.csv
   # Production-Cost.csv
   # Antigens-and-Bundles.csv
-input.files = "/shared/kgcoe-research/gates/Budget-Uncertainty/R-Files/Summer-2018/Risk/Data-Sets/"
+input.files = "/shared/ ... /Risk/Data-Sets/"
 
 # choose a name for a folder that will contain the ampl dat files and the doe.csv file
 # the ampl dat files are what will be used to run the ABP model
@@ -27,7 +27,7 @@ folder = "DAT-Files"
 folder = paste(folder, Sys.time(), sep = "_")
 
 # choose a path to place "folder"
-output.files = "/shared/kgcoe-research/gates/Budget-Uncertainty/R-Files/Summer-2018/Risk/"
+output.files = "/shared/ ... /Risk/"
 
 # create a vector that defines the ranges for the birth cohort drops
 # so for example a vector: c(0.1, 0.2, 0.3) would indicate these 3 percentage ranges: [0.01, 0.1], [0.11, 0.2], [0.21, 0.3]

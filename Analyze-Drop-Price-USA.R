@@ -3,13 +3,13 @@
 # -----------------------------------------------------------------------------------
 
 # insert the path to where the ExpOut folder is
-# exp.out.path = "/shared/kgcoe-research/gates/Budget-Uncertainty/R-Files/Fall-2017/ExpOut"
-exp.out.path = "C:/Users/Nick Morris/Downloads/ABP/Drop-Price-USA-52B-14M/ExpOut"
+# exp.out.path = "/shared/ ... /Fall-2017/ExpOut"
+exp.out.path = "C:/ ... /Drop-Price-USA-52B-14M/ExpOut"
 setwd(exp.out.path)
 
 # insert the path to where the ExpOut-Baseline folder is
-# exp.out.baseline.path = "/shared/kgcoe-research/gates/Budget-Uncertainty/R-Files/Fall-2017/ExpOut-Baseline"
-exp.out.baseline.path = "C:/Users/Nick Morris/Downloads/ABP/Drop-Price-USA-52B-14M/ExpOut-Baseline"
+# exp.out.baseline.path = "/shared/ ... /Fall-2017/ExpOut-Baseline"
+exp.out.baseline.path = "C:/ ... /Drop-Price-USA-52B-14M/ExpOut-Baseline"
 
 # create a name for a .txt file to log progress information while parallel processing
 myfile = "log.txt"

@@ -7,7 +7,7 @@
   # wgnip-market.csv
   # dosage-current.csv
   # production-cost.csv
-input.files = "/shared/.../Fall-2017/"
+input.files = "/shared/.../Fall-2017/Info-52B-14M/"
 setwd(input.files)
 
 # choose a name for a folder that will contain the ampl dat files and the doe.csv file

@@ -7,7 +7,7 @@
   # gni-country.csv
   # dosage-current.csv
   # production-cost.csv
-input.files = "/shared/kgcoe-research/gates/Budget-Uncertainty/R-Files/Fall-2017/Info-52B-14M/"
+input.files = "/shared/.../Fall-2017/Info-52B-14M/"
 setwd(input.files)
 
 # choose a name for a folder that will contain the ampl dat files and the doe.csv file
@@ -16,7 +16,7 @@ setwd(input.files)
 folder = "DataIn2"
 
 # choose a path to place "folder"
-output.files = "/shared/kgcoe-research/gates/Budget-Uncertainty/R-Files/Fall-2017/Drop-Cohort"
+output.files = "/shared/.../Fall-2017/Drop-Cohort"
 
 # create a vector that defines the ranges for the birth cohort drops
 # this vector should contain numbers between, but not including, 0 and 1

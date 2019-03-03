@@ -178,7 +178,7 @@ info = data.table(read.csv("Country-Data.csv", stringsAsFactors = FALSE))
 dose = data.table(read.csv("Antigen-Dosage.csv", stringsAsFactors = FALSE))
 hier = data.table(read.csv("Bundle-Hierarchy.csv", stringsAsFactors = FALSE))
 cap = data.table(read.csv("Production-Capacity.csv", stringsAsFactors = FALSE))
-cost = data.table(read.csv("Production-Cost.csv", stringsAsFactors = FALSE))
+cost = data.table(read.csv("Production_Cost.csv", stringsAsFactors = FALSE))
 map = data.table(read.csv("Antigens-and-Bundles.csv", stringsAsFactors = FALSE))
 
 # change the work directory to output.files
